@@ -28,7 +28,7 @@ Before running the project, ensure the following are installed:
       
 3. Place your video file in the project folder, or replace the path in the code or `0` to use Webcam:
    ```bash
-     cap = cv2.VideoCapture(r"path/to/your/video.mp4") or cap = cv2.VideoCapture(0)                            
+     cap = cv2.VideoCapture(r"path/to/your/video.mp4") || cap = cv2.VideoCapture(0)                            
 
 4. Run the script:
    ```bash
@@ -39,8 +39,8 @@ Before running the project, ensure the following are installed:
 
 6. Press the `x` key to exit the program.
 
-   ### Project Structure
-   ```bash
+### Project Structure
+-  ```bash
    multi-person-pose-tracking/
       ├── pose_tracking.py       # Main script for pose tracking
       ├── LICENSE                # Project license
